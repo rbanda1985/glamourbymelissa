@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import {
   MDBNavbar,
@@ -18,9 +18,11 @@ const Header = () => {
 
   return (
     <>
-      <MDBNavbar expand="lg" light bgColor="light">
+      <MDBNavbar expand="lg" light style={{ backgroundColor: "#FCE4EC" }}>
         <MDBContainer fluid>
-          <MDBNavbarBrand href="#">Navbar</MDBNavbarBrand>
+          <MDBNavbarBrand href="#" className="brandName">
+            Glamour By Melissa
+          </MDBNavbarBrand>
           <MDBNavbarToggler
             type="button"
             data-target="#navbarTogglerDemo02"
@@ -39,28 +41,15 @@ const Header = () => {
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="#">Link</MDBNavbarLink>
+                <MDBNavbarLink href="#">Services</MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink
-                  disabled
-                  href="#"
-                  tabIndex={-1}
-                  aria-disabled="true"
-                >
-                  Disabled
-                </MDBNavbarLink>
+                <MDBNavbarLink href="#">Location</MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href="#">Education</MDBNavbarLink>
               </MDBNavbarItem>
             </MDBNavbarNav>
-            <form className="d-flex input-group w-auto">
-              <input
-                type="search"
-                className="form-control"
-                placeholder="Type query"
-                aria-label="Search"
-              />
-              <MDBBtn color="primary">Search</MDBBtn>
-            </form>
           </MDBCollapse>
         </MDBContainer>
       </MDBNavbar>

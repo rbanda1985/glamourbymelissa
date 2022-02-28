@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap");
+
+.brandName {
+  font-family: "Charm", cursive;
+}
+
+.navbar-style {
+  background-color: #fce4ec;
+}
