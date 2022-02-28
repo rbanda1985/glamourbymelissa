@@ -36,18 +36,29 @@ const Header = () => {
           <MDBCollapse navbar show={showNavNoTogglerSecond}>
             <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
               <MDBNavbarItem>
-                <MDBNavbarLink active aria-current="page" href="#">
+                <MDBNavbarLink
+                  active
+                  aria-current="page"
+                  href="#"
+                  className="header-btn"
+                >
                   Home
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="#">Services</MDBNavbarLink>
+                <MDBNavbarLink href="#" className="header-btn">
+                  Services
+                </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="#">Location</MDBNavbarLink>
+                <MDBNavbarLink href="#" className="header-btn">
+                  Location
+                </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="#">Education</MDBNavbarLink>
+                <MDBNavbarLink href="#" className="header-btn">
+                  Education
+                </MDBNavbarLink>
               </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>
