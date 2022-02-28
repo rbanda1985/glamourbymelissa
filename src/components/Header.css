@@ -8,10 +8,18 @@
   background-color: #fce4ec;
 }
 
+.nav-link {
+  padding-right: 1.5em;
+}
+
 .header-btn {
   font-family: "Homemade Apple", cursive;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  padding-right: 1.5em;
+.nav-item {
+  padding-right: 2em;
+}
+
+.navbar-nav {
+  justify-content: flex-end;
 }

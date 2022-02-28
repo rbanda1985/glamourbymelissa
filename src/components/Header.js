@@ -20,7 +20,7 @@ const Header = () => {
     <>
       <MDBNavbar expand="lg" light style={{ backgroundColor: "#FCE4EC" }}>
         <MDBContainer fluid>
-          <MDBNavbarBrand href="#" className="brandName">
+          <MDBNavbarBrand href="/" className="brandName">
             Glamour By Melissa
           </MDBNavbarBrand>
           <MDBNavbarToggler
@@ -39,19 +39,19 @@ const Header = () => {
                 <MDBNavbarLink
                   active
                   aria-current="page"
-                  href="#"
                   className="header-btn"
+                  href="/"
                 >
                   Home
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="#" className="header-btn">
+                <MDBNavbarLink href="/services" className="header-btn">
                   Services
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="#" className="header-btn">
+                <MDBNavbarLink href="/education" className="header-btn">
                   Education
                 </MDBNavbarLink>
               </MDBNavbarItem>
