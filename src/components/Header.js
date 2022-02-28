@@ -52,11 +52,6 @@ const Header = () => {
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBNavbarLink href="#" className="header-btn">
-                  Location
-                </MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href="#" className="header-btn">
                   Education
                 </MDBNavbarLink>
               </MDBNavbarItem>
