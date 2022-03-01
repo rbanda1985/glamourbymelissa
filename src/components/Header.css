@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Homemade+Apple&display=swap");
-
 .brandName {
   font-family: "Charm", cursive;
 }
@@ -13,7 +11,9 @@
 }
 
 .header-btn {
-  font-family: "Homemade Apple", cursive;
+  font-family: "WindSong", cursive;
+  font-weight: 600;
+  font-size: 1.2em;
 }
 
 .nav-item {
