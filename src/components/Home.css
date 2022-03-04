@@ -1,5 +1,4 @@
 .image-container {
-  height: 500px;
   overflow: hidden;
 }
 
@@ -56,4 +55,19 @@
   100% {
     opacity: 1;
   }
+}
+
+.mid-page-text {
+  height: 7em;
+  max-width: 80%;
+  width: 100%;
+  background-color: #fce4ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-family: "Allura", cursive;
+  font-weight: 600;
 }

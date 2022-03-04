@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
 import {
   MDBNavbar,
   MDBContainer,
@@ -9,17 +8,22 @@ import {
   MDBNavbarItem,
   MDBNavbarLink,
   MDBCollapse,
-  MDBBtn,
   MDBIcon,
   MDBNavbarNav
 } from "mdb-react-ui-kit";
+import { FaInstagramSquare } from "react-icons/fa";
 
 const Header = () => {
   const [showNavNoTogglerSecond, setShowNavNoTogglerSecond] = useState(false);
 
   return (
     <>
-      <MDBNavbar expand="lg" light style={{ backgroundColor: "#FCE4EC" }}>
+      <MDBNavbar
+        expand="lg"
+        light
+        className="sticky-top"
+        style={{ backgroundColor: "#FCE4EC" }}
+      >
         <MDBContainer fluid>
           <MDBNavbarBrand href="/" className="brandName">
             Glamour By Melissa
@@ -54,6 +58,11 @@ const Header = () => {
               <MDBNavbarItem>
                 <MDBNavbarLink href="/education" className="header-btn">
                   Education
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href="https://www.instagram.com/glamourby_melissa/">
+                  <FaInstagramSquare style={{ height: "2em", width: "2em" }} />
                 </MDBNavbarLink>
               </MDBNavbarItem>
             </MDBNavbarNav>

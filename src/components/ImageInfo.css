@@ -1,0 +1,41 @@
+.container-style {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.row-style {
+  padding-left: 1em;
+  margin-top: 2em;
+  display: contents;
+}
+
+.column-style {
+  width: 40%;
+  border: double pink;
+  padding: 1em;
+}
+
+.image-box {
+  float: left;
+  padding-right: 1em;
+}
+
+.paragraph {
+  text-align: left;
+  font-family: "Lobster Two", cursive;
+  font-size: 1.2em;
+}
+
+.image-info {
+  border-radius: 4px;
+  height: 20em;
+}
+
+@media (orientation: landscape) {
+  .col-md-5 {
+    flex: auto;
+    display: flex;
+    align-items: center;
+  }
+}
