@@ -11,6 +11,7 @@ import {
   MDBIcon,
   MDBNavbarNav
 } from "mdb-react-ui-kit";
+import logo from "../assets/watermark.png";
 import { FaInstagramSquare } from "react-icons/fa";
 
 const Header = () => {
@@ -26,7 +27,7 @@ const Header = () => {
       >
         <MDBContainer fluid>
           <MDBNavbarBrand href="/" className="brandName">
-            Glamour By Melissa
+            <img src={logo} alt="logo" />
           </MDBNavbarBrand>
           <MDBNavbarToggler
             type="button"

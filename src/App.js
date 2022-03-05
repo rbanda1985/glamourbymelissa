@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Services from "./components/Services";
 import Education from "./components/Education";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           element={<Education />}
         />
       </Routes>
+      <Footer className="footer" />
     </div>
   );
 }

@@ -1,5 +1,5 @@
-.brandName {
-  font-family: "Charm", cursive;
+.brandName img {
+  height: 4em;
 }
 
 .navbar-style {
@@ -22,4 +22,10 @@
 
 .navbar-nav {
   justify-content: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+  .brandName img {
+    height: 3.5em;
+  }
 }
