@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   margin-top: 2em;
+  width: 60%;
 }
 
 .row-style {
@@ -37,5 +38,11 @@
     flex: auto;
     display: flex;
     align-items: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container-style {
+    width: auto;
   }
 }

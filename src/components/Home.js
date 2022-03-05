@@ -3,8 +3,11 @@ import { MDBContainer, MDBCol, MDBRow, MDBTypography } from "mdb-react-ui-kit";
 import "./Home.css";
 import image from "../assets/salon4.jpg";
 import image2 from "../assets/melissa2.jpg";
+import image3 from "../assets/education.jpg";
+import image4 from "../assets/services.jpg";
 import TopImage from "./TopImage";
 import ImageInfo from "./ImageInfo";
+import Card from "./Card";
 
 const Home = () => {
   return (
@@ -16,26 +19,24 @@ const Home = () => {
           - It's ok to be a litle obsessed with your hair. -
         </MDBTypography>
       </div>
-      <MDBContainer fluid className="d-flex justify-content-center">
-        <MDBRow>
-          <MDBCol size="md-6">
-            <img
-              src={image2}
-              className="img-thumbnail"
-              alt="Services"
-              style={{ maxWidth: "24rem" }}
-            />
-          </MDBCol>
-          <MDBCol size="md-6">
-            <img
-              src={image2}
-              className="img-thumbnail"
-              alt="Services"
-              style={{ maxWidth: "24rem" }}
-            />
-          </MDBCol>
-        </MDBRow>
-      </MDBContainer>
+      <div className="cards">
+        <div className="card1">
+          <Card
+            image={image3}
+            title="Education"
+            info="I'm ready to learn to become the best"
+            link="/education"
+          />
+        </div>
+        <div className="card2">
+          <Card
+            image={image4}
+            title="Services"
+            info="Make me look like the beautiful empowered woman that I am."
+            link="/services"
+          />
+        </div>
+      </div>
     </>
   );
 };
