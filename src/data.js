@@ -1,25 +1,24 @@
-import image1 from "./assets/education.jpg";
-import image2 from "./assets/services.jpg";
-import image3 from "./assets/careers.jpg";
-
 const data = [
   {
     id: 1,
-    image: { image1 },
+    image: require("./assets/education.jpg"),
     title: "Education",
-    description: "I'm ready to learn to become the best!"
+    description: "I'm ready to learn to become the best!",
+    link: "/education"
   },
   {
     id: 2,
-    image: { image2 },
+    image: require("./assets/services.jpg"),
     title: "Services",
-    description: "Make me look like the beautiful empowered woman that I am"
+    description: "Make me look like the beautiful empowered woman that I am",
+    link: "/services"
   },
   {
     id: 3,
-    image: { image3 },
+    image: require("./assets/careers.jpg"),
     title: "Careers",
-    description: "Looking for an opportunity? This is the place!"
+    description: "Looking for an opportunity? This is the place!",
+    link: "/careers"
   }
 ];
 
