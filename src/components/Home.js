@@ -14,7 +14,7 @@ const Home = () => {
       <TopImage image={image} />
       <ImageInfo image2={image2} />
       <div className="mid-page-text">
-        <MDBTypography tag="h4">
+        <MDBTypography tag="h4" className="mid-text">
           - It's ok to be a litle obsessed with your hair. -
         </MDBTypography>
       </div>

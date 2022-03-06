@@ -50,9 +50,6 @@ const Footer = () => {
                 <i className="fas fa-envelope me-3"></i>
                 glamourbymelissa1@gmail.com
               </p>
-              <p>
-                <i className="fas fa-phone me-3"></i> + 01 234 567 88
-              </p>
             </div>
           </div>
         </div>
