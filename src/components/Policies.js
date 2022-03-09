@@ -4,7 +4,7 @@ import { MDBAccordion, MDBAccordionItem } from "mdb-react-ui-kit";
 
 const Policies = () => {
   return (
-    <MDBAccordion flush initialActive="flush-collapse1">
+    <MDBAccordion flush initialActive="flush-collapse1" className="policy-info">
       <MDBAccordionItem
         collapseId="flush-collapse1"
         headerTitle="Cancellations"

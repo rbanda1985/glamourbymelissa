@@ -1,7 +1,10 @@
-.accordian .accordian-flush {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.policy-info {
+  width: 50%;
   margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .policy-info {
+    width: auto;
+  }
 }

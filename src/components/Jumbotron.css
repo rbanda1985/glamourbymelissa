@@ -1,0 +1,44 @@
+.jumbo-banner {
+  background-image: url("../assets/education-banner.jpg");
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbo-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: -webkit-fill-available;
+}
+
+.jumbo-header {
+  font-family: "Allura", cursive;
+  font-size: 4em;
+}
+
+.page-description {
+  text-align: center;
+  width: 70%;
+  background-color: #fce4ec;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.page-description p {
+  margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .page-description {
+    width: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 900px) and (orientation: landscape) {
+  .page-description {
+    width: 100%;
+  }
+}
