@@ -20,7 +20,9 @@
 
 .description {
   font-size: 1.6em;
-  font-family: "Poiret One", cursive;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 100;
 }
 
 @media only screen and (max-width: 600px) {
