@@ -7,7 +7,10 @@ const Jumbotron = ({ title, info, image }) => {
       className="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white jumbo-banner"
       style={{ backgroundImage: `url(${image})` }}
     >
-      <div className="jumbo-text">
+      <div
+        className="jumbo-text mask"
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}
+      >
         <h1 className="mb-3 h2 jumbo-header">{title}</h1>
 
         <p>{info}</p>
