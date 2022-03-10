@@ -20,7 +20,7 @@
   }
 }
 
-@media (min-width: 480px) and (max-width: 900px) and (orientation: landscape) {
+@media (min-width: 480px) and (max-width: 990px) and (orientation: landscape) {
   .career-banner {
     width: 100%;
   }

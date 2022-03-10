@@ -15,3 +15,13 @@
   flex-direction: column;
   margin-top: 5em;
 }
+
+.card-text {
+  font-size: 1em;
+}
+
+.page-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}

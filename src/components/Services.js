@@ -4,6 +4,7 @@ import "./Services.css";
 import CardService from "./CardService";
 import cardInfo from "../dataServices";
 import Policies from "./Policies";
+import ServicesBanner from "./ServicesBanner";
 
 const Services = () => {
   return (
@@ -20,6 +21,7 @@ const Services = () => {
           />
         ))}
       </div>
+      <ServicesBanner />
       <div className="salon-policies">
         <h3>Salon Policies</h3>
       </div>

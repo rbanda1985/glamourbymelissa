@@ -16,7 +16,8 @@ const Policies = () => {
             booked.
           </li>
           <li>
-            Same Day Cancellations will result in a loss of a paid deposit.
+            Less than 24 hours cancellation/reschedule will be billed 100% of
+            the service, and will have to pay a deposit for a new appointment.
           </li>
           <li>
             No Call No Show will be billed 100% of the service and WILL NO

@@ -2,6 +2,7 @@ import React from "react";
 import "./Careers.css";
 import Jumbotron from "./Jumbotron";
 import image from "../assets/careers-banner.jpg";
+import Amenities from "./Amenities";
 
 const Careers = () => {
   return (
@@ -19,6 +20,7 @@ const Careers = () => {
           consistently leveling up!
         </p>
       </div>
+      <Amenities />
     </>
   );
 };
