@@ -1,4 +1,5 @@
 import React from "react";
+import "./CardEducation.css";
 import {
   MDBCard,
   MDBCardTitle,
@@ -19,7 +20,9 @@ const CardEducation = ({ title, image, info, link }) => {
         </MDBCol>
         <MDBCol md="8">
           <MDBCardBody>
-            <MDBCardTitle>{title}</MDBCardTitle>
+            <MDBCardTitle className="card-education-title">
+              {title}
+            </MDBCardTitle>
             <MDBCardText
               style={{
                 fontFamily: "roboto, sans-serif",

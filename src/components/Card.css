@@ -7,6 +7,12 @@
   height: 14.4em;
 }
 
+.home-card-title {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
 @media only screen and (max-width: 600px) {
   .card {
     height: auto;
