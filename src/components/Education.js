@@ -3,11 +3,17 @@ import "./Education.css";
 import Jumbotron from "./Jumbotron";
 import CardEducation from "./CardEducation";
 import dataEducation from "../dataEducation";
+import image from "../assets/education-banner.jpg";
 
 const Education = () => {
   return (
     <>
-      <Jumbotron />
+      <Jumbotron
+        title="Education"
+        info="Lets sharpen your skills, lets sharpen your knowledge, and lets make
+          you more desirable as a hair dresser."
+        image={image}
+      />
       <div className="page-description">
         <p>Below you will see a couple of classes that I have listed.</p>
         <p>
