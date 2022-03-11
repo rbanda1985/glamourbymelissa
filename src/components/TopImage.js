@@ -4,10 +4,7 @@ const TopImage = ({ image }) => {
   return (
     <>
       <div className="image-container text-center d-flex justify-content-center align-items-center">
-        <div
-          className="bg-image"
-          style={{ height: "-webkit-fill-available", flex: "1" }}
-        >
+        <div className="bg-image" style={{ height: "auto", flex: "1" }}>
           <img
             src={image}
             className="img-fluid shadow-4"
