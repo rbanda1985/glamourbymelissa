@@ -21,7 +21,7 @@ const Card = ({ image, title, info, link }) => {
         <MDBCol md="8">
           <MDBCardBody>
             <MDBCardTitle className="home-card-title">{title}</MDBCardTitle>
-            <MDBCardText>{info}</MDBCardText>
+            <MDBCardText className="cards-text">{info}</MDBCardText>
             <MDBBtn href={link}>Get Started</MDBBtn>
           </MDBCardBody>
         </MDBCol>

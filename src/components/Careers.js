@@ -10,7 +10,7 @@ const Careers = () => {
       <Jumbotron
         title="Careers"
         image={image}
-        info="To be the best you have to work with the best in the industry"
+        info="Join us on our path to perfection on creating the perfect experience"
       />
       <div className="career-banner">
         <p>

@@ -24,6 +24,7 @@ const CardEducation = ({ title, image, info, link }) => {
               {title}
             </MDBCardTitle>
             <MDBCardText
+              className="education-card-text"
               style={{
                 fontFamily: "roboto, sans-serif",
                 fontStyle: "italic",
