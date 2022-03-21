@@ -20,6 +20,9 @@ const Policies = () => {
             the service, and will have to pay a deposit for a new appointment.
           </li>
           <li>
+
+          </li>
+          <li>
             No Call No Show will be billed 100% of the service and WILL NO
             LONGER be able to reschedule with any of our stylists.
           </li>
@@ -37,10 +40,16 @@ const Policies = () => {
         cancel, our same day cancellation policy still applies.
       </MDBAccordionItem>
       <MDBAccordionItem collapseId="flush-collapse3" headerTitle="Late Policy">
-        We have a 15 minute grace period. Arriving after 15 minutes you will be
+        <ul>
+       <li>We have a 15 minute grace period. Arriving after 15 minutes you will be
         asked to reschedule for a different date or the stylist will accommodate
         you for a fee of $50 if fits in their schedule to ensure the next guest
         will receive the best experience and the stylist can stay on time
+        </li>
+        <li>
+          If you are 30 minutes late and your appointement will be cancelled for the day and you will lose your deposit. A new deposit is needed to reschedule your appointment.
+        </li>
+        </ul>
       </MDBAccordionItem>
       <MDBAccordionItem collapseId="flush-collapse4" headerTitle="Extra Guest">
         Due to Covid 19 we do not allow extra guest nor children during your
