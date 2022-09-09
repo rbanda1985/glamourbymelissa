@@ -20,9 +20,6 @@ const Policies = () => {
             the service, and will have to pay a deposit for a new appointment.
           </li>
           <li>
-
-          </li>
-          <li>
             No Call No Show will be billed 100% of the service and WILL NO
             LONGER be able to reschedule with any of our stylists.
           </li>
@@ -47,7 +44,7 @@ const Policies = () => {
         will receive the best experience and the stylist can stay on time
         </li>
         <li>
-          If you are 30 minutes late and your appointement will be cancelled for the day and you will lose your deposit. A new deposit is needed to reschedule your appointment.
+          If you are 30 minutes late your appointement will be cancelled for the day and you will lose your deposit. A new deposit is needed to reschedule your appointment.
         </li>
         </ul>
       </MDBAccordionItem>

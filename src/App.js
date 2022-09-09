@@ -7,6 +7,7 @@ import Services from "./components/Services";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
 import Careers from "./components/Careers";
+import ExtensionMethods from "./components/ExtensionMethods";
 
 function App() {
   return (
@@ -25,6 +26,11 @@ function App() {
           element={<Education />}
         />
         <Route path="/careers" component={<Careers />} element={<Careers />} />
+        <Route 
+          path="/extension-methods"
+          component={<ExtensionMethods />}
+          element={<ExtensionMethods />}
+          />
       </Routes>
       <Footer className="footer" />
     </div>

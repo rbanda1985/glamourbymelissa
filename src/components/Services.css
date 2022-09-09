@@ -24,3 +24,42 @@
   font-style: italic;
   font-weight: 100;
 }
+
+.extension-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  font-style: italic;
+}
+
+.extension-info p + p {
+  font-weight: 200;
+}
+
+.extension-method-title {
+  font-family: "Allura", cursive;
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.ext-btn {
+  font-style: normal;
+}
+
+@media only screen and (max-width: 600px) {
+  .extension-info {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    height: 400px;
+  }
+  .extension-method-title {
+    font-size: 1.8em;
+  }
+}
