@@ -31,3 +31,19 @@
     font-size: 1.3em;
   }
 }
+
+.coming-soon {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Allura", cursive;
+}
+
+.coming-soon h1 {
+  border: 1px solid pink;
+  padding: 4em;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}

@@ -8,7 +8,7 @@ import image from "../assets/education-banner.jpg";
 const Education = () => {
   return (
     <>
-      <Jumbotron
+      {/* <Jumbotron
         title="Education"
         info="Lets sharpen your skills, lets sharpen your knowledge, and lets make
           you more desirable as a hair dresser."
@@ -32,6 +32,9 @@ const Education = () => {
             link={data.link}
           />
         ))}
+      </div> */}
+      <div className="coming-soon">
+        <h1>-Coming Soon In Fall Of 2022-</h1>
       </div>
     </>
   );
