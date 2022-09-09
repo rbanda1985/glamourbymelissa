@@ -26,12 +26,6 @@
   font-style: italic;
 }
 
-@media only screen and (max-width: 600px) {
-  .description {
-    font-size: 1.3em;
-  }
-}
-
 .coming-soon {
   height: 100vh;
   display: flex;
@@ -46,4 +40,13 @@
   width: 80%;
   margin: auto;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .description {
+    font-size: 1.3em;
+  }
+  .coming-soon h1 {
+    width: 90%;
+  }
 }
