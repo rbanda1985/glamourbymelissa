@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import Services from "./components/Services";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
-import Careers from "./components/Careers";
+// import Careers from "./components/Careers";
 import ExtensionMethods from "./components/ExtensionMethods";
 
 function App() {

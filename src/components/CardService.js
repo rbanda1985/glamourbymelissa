@@ -11,7 +11,8 @@ import {
   MDBBtn
 } from "mdb-react-ui-kit";
 
-const CardService = ({ image, title, description, link }) => {
+const CardService = ({ image, title, description, link, linkTwo, classNames }) => {
+
   return (
     <>
       <MDBCard>
@@ -26,6 +27,7 @@ const CardService = ({ image, title, description, link }) => {
               </MDBCardTitle>
               <MDBCardText className="description">{description}</MDBCardText>
               <MDBBtn href={link}>Get Started</MDBBtn>
+              <MDBBtn className={classNames} href={linkTwo}>Extension Methods</MDBBtn>
             </MDBCardBody>
           </MDBCol>
         </MDBRow>
