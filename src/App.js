@@ -25,7 +25,7 @@ function App() {
           component={<Education />}
           element={<Education />}
         />
-        <Route path="/careers" component={<Careers />} element={<Careers />} />
+        {/* <Route path="/careers" component={<Careers />} element={<Careers />} /> */}
         <Route 
           path="/extension-methods"
           component={<ExtensionMethods />}

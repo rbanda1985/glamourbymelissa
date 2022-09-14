@@ -12,14 +12,14 @@ const data = [
     title: "Services",
     description: "Make me look like the beautiful empowered woman that I am",
     link: "/services"
-  },
-  {
-    id: 3,
-    image: require("./assets/careers.jpg"),
-    title: "Careers",
-    description: "Looking for an opportunity? This is the place!",
-    link: "/careers"
   }
+  // {
+  //   id: 3,
+  //   image: require("./assets/careers.jpg"),
+  //   title: "Careers",
+  //   description: "Looking for an opportunity? This is the place!",
+  //   link: "/careers"
+  // }
 ];
 
 export default data;

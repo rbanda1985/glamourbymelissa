@@ -11,7 +11,7 @@ const Header = () => {
         headerOne="Home"
         headerTwo="Services"
         headerThree="Education"
-        headerFour="Careers"
+        // headerFour="Careers"
       />
     </>
   );

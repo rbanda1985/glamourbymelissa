@@ -34,7 +34,7 @@ const Education = () => {
         ))}
       </div> */}
       <div className="coming-soon">
-        <h1>-Coming Soon In Fall Of 2022-</h1>
+        <h1>-Coming Soon January 2023-</h1>
       </div>
     </>
   );
