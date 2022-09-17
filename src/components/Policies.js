@@ -7,6 +7,25 @@ const Policies = () => {
     <MDBAccordion flush initialActive="flush-collapse1" className="policy-info">
       <MDBAccordionItem
         collapseId="flush-collapse1"
+        headerTitle="What Does The Booking Process Look Like?">
+        <div className="inquire">
+          <h5>Inquire</h5>
+          <div className="inquire-info">
+            <p>Fill out a form online and expect a response via email in 24 - 48 hours, not including weekends.</p>
+          </div>
+          <h5>Quote</h5>
+          <div className="quote">
+            <p>You will receive a quote and availability options. Let us know what works best with your schedule.</p>
+          </div>
+          <h5>Deposit</h5>
+          <div className="deposit">
+            <p>An invoice will be sent to pay your deposit within 24 hrs. Once paid review our customer agreement form going over our policies. We require a signature to avoid any cancellations.</p>
+            <p>Once everything has been completed your are all set! You will receive a confirmation and details about your appointement.</p>
+          </div>
+        </div>
+      </MDBAccordionItem>
+      <MDBAccordionItem
+        collapseId="flush-collapse2"
         headerTitle="Cancellations"
       >
         <ul>
@@ -26,7 +45,7 @@ const Policies = () => {
         </ul>
       </MDBAccordionItem>
       <MDBAccordionItem
-        collapseId="flush-collapse2"
+        collapseId="flush-collapse3"
         headerTitle="Covid-19 Policy"
       >
         In the case you suspect you have been exposed to Covid-19, please email
@@ -36,7 +55,7 @@ const Policies = () => {
         When a guest doesn't feel well the day of the service and chooses to
         cancel, our same day cancellation policy still applies.
       </MDBAccordionItem>
-      <MDBAccordionItem collapseId="flush-collapse3" headerTitle="Late Policy">
+      <MDBAccordionItem collapseId="flush-collapse4" headerTitle="Late Policy">
         <ul>
        <li>We have a 15 minute grace period. Arriving after 15 minutes you will be
         asked to reschedule for a different date or the stylist will accommodate
@@ -48,7 +67,7 @@ const Policies = () => {
         </li>
         </ul>
       </MDBAccordionItem>
-      <MDBAccordionItem collapseId="flush-collapse4" headerTitle="Extra Guest">
+      <MDBAccordionItem collapseId="flush-collapse5" headerTitle="Extra Guest">
         Due to Covid 19 we do not allow extra guest nor children during your
         service. If you bring any extra guest we will ask for you to reschedule
         your appointment which result as a same day cancellation fee.

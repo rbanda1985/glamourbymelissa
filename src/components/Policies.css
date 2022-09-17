@@ -3,6 +3,9 @@
   margin: auto;
 }
 
+.inquire {
+}
+
 @media only screen and (max-width: 600px) {
   .policy-info {
     width: auto;

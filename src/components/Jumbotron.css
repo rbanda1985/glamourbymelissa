@@ -30,6 +30,10 @@
   margin-bottom: 8px;
 }
 
+.intro-second-title h2 {
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 600px) {
   .page-description {
     width: 100%;

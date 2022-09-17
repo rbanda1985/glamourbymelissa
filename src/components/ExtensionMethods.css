@@ -4,3 +4,41 @@
   font-family: "Allura", cursive;
   font-style: italic;
 }
+
+.intro-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+  background-color: #fce4ec;
+  padding: 2em;
+  border-radius: 4px;
+}
+
+.intro-contain h2 {
+  font-family: "Allura", cursive;
+}
+
+@media only screen and (max-width: 600px) {
+  .intro-contain {
+    width: 90%;
+    margin: auto;
+    margin-top: 5em;
+    padding: 1em;
+  }
+  .intro-desc-one {
+    padding-top: 1em;
+    text-align: center;
+  }
+  .intro-second-title {
+    padding-top: 2em;
+    text-align: center;
+  }
+  .intro-disc-two {
+    padding-top: 1em;
+    text-align: center;
+  }
+  .intro-methods {
+    padding-top: 2em;
+  }
+}

@@ -10,6 +10,29 @@ const ExtensionMethods = () => {
   return (
     <div className='extension-method-container'>
         <h1>-Extension Methods-</h1>
+      <div className='intro-contain'>
+        <h2 style={{fontWeight: '600'}}>All Kinds Of Extensions</h2>
+        <div className='intro-desc-one'>
+          <p>Extensions can really boost a woman's confidence. Whether you are looking for length, volume, or both. Extensions will become your new OBSESSION.</p>
+        </div>
+        <div className='intro-second-title'>
+          <h2>Extensions are not A One Size Fits All</h2>
+        </div>
+        <div className='intro-disc-two'>
+          <p>I am certified and have extensive training through Bellami offering 5 different methods. There is a method or a coctail of methods just for you.</p>
+        </div>
+        <div className='intro-methods'>
+          <h2>I Offer...</h2>
+          <ul>
+            <li>I-Tips</li>
+            <li>Hand-Tied Wefts (Hidden Bead Method)</li>
+            <li>Volume Wefts</li>
+            <li>K-Tips</li>
+            <li>Tapes</li>
+            <li>Bonus: Even Clip Ins</li>
+          </ul>
+        </div>
+      </div>
       <div className='first-method'>
         <HairMethodOne image={methodOne}
           info='I-tips are a light weight method designed for fine to medium density hair. They have a 360 mobility. This is a great option for those who wear ponytails from time to time. These individual strands allow you to pick up to 6 different colors to create a seamless and dimensional blend. Maintenance is required every 4-6 weeks.'
