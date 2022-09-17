@@ -1,47 +1,6 @@
-.extension-method-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.extension-method-container h1 {
   text-align: center;
-  height: 150vh;
-  width: 80%;
-  margin: auto;
-}
-
-.extension-methods-main-title {
-  font-weight: 600;
-  font-style: italic;
+  margin-top: 2em;
   font-family: "Allura", cursive;
-  font-size: 2em;
-  padding-top: 5em;
-}
-
-.extension-method-second-container {
-  border: 1px solid pink;
-  padding-top: 4em;
-  padding-left: 2em;
-  padding-right: 2em;
   font-style: italic;
-}
-
-.first-method {
-  margin-bottom: 4em;
-}
-
-.ext-meth-title {
-  font-family: "Allura", cursive;
-  font-size: 2em;
-}
-
-.second-method {
-  margin-bottom: 4em;
-}
-
-.third-method {
-  margin-bottom: 4em;
-}
-
-.fourth-method {
-  padding-bottom: 4em;
 }

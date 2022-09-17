@@ -1,0 +1,45 @@
+.method-one-container {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  margin-top: 4em;
+  border: 1px solid pink;
+  overflow: hidden;
+  border-radius: 4px;
+  padding: 0.2em;
+}
+
+.method-one-info-container {
+  padding-left: 1em;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
+}
+
+.method-one-info-container h2 {
+  font-family: "Allura", cursive;
+  font-style: italic;
+  text-align: center;
+}
+
+.method-one-info-container p {
+  padding-top: 2em;
+}
+
+.booking-button {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .method-one-container {
+    display: block;
+    width: 100%;
+    padding-bottom: 1em;
+  }
+  .method-one-container img {
+    width: 100%;
+  }
+  .method-one-container h2 {
+    font-size: 2.5em;
+  }
+}

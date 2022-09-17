@@ -15,7 +15,7 @@ const cardInfo = [
     info:
       "I offer lived in color whether you like to be brunette, high contrast blonde, or reds. Lived in color is easy to maintain and the grow out is seamless. Most guests come in every 6 months, some every 3-4 months to the salon for their touch ups. We can customize your look by how often you like to spend your time in the salon throughout the year. My pricing for an overall look comes with everything you need ( lightener, root blending, toning, treatment, haircut, and style) and can range from $600-$750. If you are interested in an appointment. Please fill out my consultation form to receive a quote and to book your next appointment.",
     link:
-      "https://docs.google.com/forms/d/e/1FAIpQLSenBxAnM9EvjJSV1noji7DgvQc1IwMyt8dGBfdwax0FB7EdFw/viewform",
+      "/color-form",
     classNames: 'hidden-ext-btn'
   },
 ];

@@ -1,33 +1,38 @@
 import React from 'react'
 import './ExtensionMethods.css';
+import HairMethodOne from './HairMethodOne';
+import methodOne from '../assets/i-tip.jpg'
+import methodTwo from '../assets/k-tip.jpg';
+import methodThree from '../assets/hand-tied-weft.jpg';
+import methodFour from '../assets/volume-weft.jpg';
 
 const ExtensionMethods = () => {
   return (
     <div className='extension-method-container'>
-        <p className='extension-methods-main-title'>-Extension Methods-</p>
-     <div className='extension-method-second-container'>   
+        <h1>-Extension Methods-</h1>
       <div className='first-method'>
-        <p className='ext-meth-title'>-Weft Hair Extensions-</p>
-        <p className='weft-info'>Weft hair can be applied in several different ways to best suit the clients needs. They are applied using silicone lined beads and will cause no damage with proper maintenance. The hair lasts 6-12 months, with maintenance every 4-6 weeks</p>
+        <HairMethodOne image={methodOne}
+          info='I-tips are a light weight method designed for fine to medium density hair. They have a 360 mobility. This is a great option for those who wear ponytails from time to time. These individual strands allow you to pick up to 6 different colors to create a seamless and dimensional blend. Maintenance is required every 4-6 weeks.'
+          title='I-Tips'
+        />
       </div>
       <div className='second-method'>
-        <p className='ext-meth-title'>-K-Tips-</p>
-        <p className='k-tip-info'>
-          K-Tips are individual fusion extensions, using heat to melt the bonds. K-Tips last 4-6 months with no maintenance appointments required.
-        </p>
+        <HairMethodOne image={methodTwo} 
+        info='K-Tips are very similar to I-Tips. K-Tips are a light weight method designed for fine to medium density hair. They are installed using a heating tool to warm up the keratin to adhere to natural hair. The keratin is made with silicone that protects your natural hair, so there is no damage. K-Tips do not require in salon up keep. They can live in the hair for 3-6 months. After the duration of wear, it is time to remove them and get a new set of extenstions.'
+        title='K-Tips'
+        />
       </div>
       <div className='third-method'>
-        <p className='ext-meth-title'>-I-Tips-</p>
-        <p className='i-tips-info'>
-          I-Tips are individual extensions installed with a small copper bead that is the color of the hair. These will cause no damange with proper maintenace and give maximum mobility. I-Tips last 6-12 months with maintenance appointments every 4-8 weeks.
-        </p>
+        <HairMethodOne image={methodThree}
+        info='Hand-Tied Wefts are for ALL HAIR TYPES. They are customizable in color, placement, and density to look and feel natural. Hand-tied can give you instant length and volume in just 2-3 rows. Maintenance is required every 6-8 weeks.'
+        title='Handtied Wefts'
+        />
       </div>
       <div className='fourth-method'>
-        <p className='ext-meth-title'>-Tape Ins-</p>
-        <p className='tape-in-info'>
-          Tape Ins are the quickest initial application and lay completely flat to the head. The application involves no heat and uses high grade medical adhesive to attach to the hair. The hair last 6-12 months with maintenance every 4-8 weeks.
-        </p>
-        </div>
+        <HairMethodOne image={methodFour}
+        info='Volume wefts are great for guests with medium to thicker density hair. These wefts give you instant volume and length. Volume wefts are packaged for a full head installation. This is a great option for guest with a single all over color/blend. Maintenance is required every 6-8 weeks.'
+        title='Volume Wefts'
+        />
       </div>
     </div>
   )

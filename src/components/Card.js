@@ -22,7 +22,7 @@ const Card = ({ image, title, info, link }) => {
           <MDBCardBody>
             <MDBCardTitle className="home-card-title">{title}</MDBCardTitle>
             <MDBCardText className="cards-text">{info}</MDBCardText>
-            <MDBBtn href={link}>Get Started</MDBBtn>
+            <MDBBtn href={link} style={{backgroundColor: 'pink', color: 'black'}}>Get Started</MDBBtn>
           </MDBCardBody>
         </MDBCol>
       </MDBRow>

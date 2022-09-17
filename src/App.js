@@ -8,6 +8,8 @@ import Education from "./components/Education";
 import Footer from "./components/Footer";
 // import Careers from "./components/Careers";
 import ExtensionMethods from "./components/ExtensionMethods";
+import ExtensionForm from "./components/ExtensionForm";
+import ColorForm from "./components/ColorForm";
 
 function App() {
   return (
@@ -31,6 +33,16 @@ function App() {
           component={<ExtensionMethods />}
           element={<ExtensionMethods />}
           />
+        <Route 
+          path="/extension-form"
+          component={<ExtensionForm />}
+          element={<ExtensionForm />}
+          />
+        <Route 
+          path="color-form"
+          component={<ColorForm />}
+          element={<ColorForm />}
+        />
       </Routes>
       <Footer className="footer" />
     </div>
