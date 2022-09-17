@@ -19,7 +19,7 @@ const ExtensionMethods = () => {
           <h2>Extensions are not A One Size Fits All</h2>
         </div>
         <div className='intro-disc-two'>
-          <p>I am certified and have extensive training through Bellami offering 5 different methods. There is a method or a coctail of methods just for you.</p>
+          <p>I am certified and have extensive training through Bellami offering 5 different methods. There is a method or a cocktail of methods just for you.</p>
         </div>
         <div className='intro-methods'>
           <h2>I Offer...</h2>
@@ -35,7 +35,7 @@ const ExtensionMethods = () => {
       </div>
       <div className='first-method'>
         <HairMethodOne image={methodOne}
-          info='I-tips are a light weight method designed for fine to medium density hair. They have a 360 mobility. This is a great option for those who wear ponytails from time to time. These individual strands allow you to pick up to 6 different colors to create a seamless and dimensional blend. Maintenance is required every 4-6 weeks.'
+          info='I-tips are a light weight method designed for fine to medium density hair. They have 360 degrees of mobility. This is a great option for those who wear ponytails from time to time. These individual strands allow you to pick up to 6 different colors to create a seamless and dimensional blend. Maintenance is required every 4-6 weeks.'
           title='I-Tips'
         />
       </div>
