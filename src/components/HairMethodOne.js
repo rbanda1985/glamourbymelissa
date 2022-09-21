@@ -9,7 +9,7 @@ const HairMethodOne = ({image, info, title}) => {
       <img src={image} />
       </div>
       <div className='method-one-info-container'>
-        <h2>{title}</h2>
+        <h2 style={{fontWeight: 600}}>{title}</h2>
         <p>{info}</p>
         <div className='booking-button'>
         <MDBBtn href='/extension-form' style={{backgroundColor: 'pink', color: 'black'}}>Book Now</MDBBtn>

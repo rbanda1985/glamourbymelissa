@@ -22,7 +22,7 @@ const ExtensionMethods = () => {
           <p>I am certified and have extensive training through Bellami offering 5 different methods. There is a method or a cocktail of methods just for you.</p>
         </div>
         <div className='intro-methods'>
-          <h2>I Offer...</h2>
+          <h2 style={{fontWeight: 600}}>I Offer...</h2>
           <ul>
             <li>I-Tips</li>
             <li>Hand-Tied Wefts (Hidden Bead Method)</li>
