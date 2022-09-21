@@ -20,7 +20,7 @@ const Policies = () => {
           <h5>Deposit</h5>
           <div className="deposit">
             <p>An invoice will be sent to pay your deposit within 24 hrs. Once paid review our customer agreement form going over our policies. We require a signature to avoid any cancellations.</p>
-            <p>Once everything has been completed your are all set! You will receive a confirmation and details about your appointement.</p>
+            <p>Once everything has been completed your are all set! You will receive a confirmation and details about your appointment.</p>
           </div>
         </div>
       </MDBAccordionItem>
@@ -28,7 +28,7 @@ const Policies = () => {
         collapseId="flush-collapse2"
         headerTitle="Cancellations"
       >
-        <ul>
+        <ul className="cancellations">
           <li>We do require a 72 hour cancellation notice.</li>
           <li>
             Less than 72hrs will result in a charge of 50% of the service
@@ -48,15 +48,15 @@ const Policies = () => {
         collapseId="flush-collapse3"
         headerTitle="Covid-19 Policy"
       >
-        In the case you suspect you have been exposed to Covid-19, please email
+        <p className="covid">In the case you suspect you have been exposed to Covid-19, please email
         or reach out to your stylist and we can reschedule your appointment
         without any issues once you present a negative covid test. Or if you
         tested positive, quarantine, and have been cleared by negative test.
         When a guest doesn't feel well the day of the service and chooses to
-        cancel, our same day cancellation policy still applies.
+        cancel, our same day cancellation policy still applies.</p>
       </MDBAccordionItem>
       <MDBAccordionItem collapseId="flush-collapse4" headerTitle="Late Policy">
-        <ul>
+        <ul className="late-policy">
        <li>We have a 15 minute grace period. Arriving after 15 minutes you will be
         asked to reschedule for a different date or the stylist will accommodate
         you for a fee of $50 if fits in their schedule to ensure the next guest
@@ -68,9 +68,9 @@ const Policies = () => {
         </ul>
       </MDBAccordionItem>
       <MDBAccordionItem collapseId="flush-collapse5" headerTitle="Extra Guest">
-        Due to Covid 19 we do not allow extra guest nor children during your
+        <p className="guest">Due to Covid 19 we do not allow extra guest nor children during your
         service. If you bring any extra guest we will ask for you to reschedule
-        your appointment which result as a same day cancellation fee.
+        your appointment which result as a same day cancellation fee.</p>
       </MDBAccordionItem>
     </MDBAccordion>
   );

@@ -16,4 +16,13 @@
 .service-banner-title h3 {
   font-family: "Allura", cursive;
   font-size: 2em;
+  font-weight: 600;
+}
+
+.hours {
+  font-size: 1.2em;
+}
+
+.small-service {
+  font-size: 1.1em;
 }

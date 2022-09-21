@@ -4,6 +4,27 @@
 }
 
 .inquire {
+  font-family: "Audrey", sans-serif;
+}
+
+.inquire h5 {
+  font-family: "Audrey Bold", sans-serif;
+}
+
+.cancellations {
+  font-family: "Audrey", sans-serif;
+}
+
+.covid {
+  font-family: "Audrey", sans-serif;
+}
+
+.late-policy {
+  font-family: "Audrey", sans-serif;
+}
+
+.guest {
+  font-family: "Audrey", sans-serif;
 }
 
 @media only screen and (max-width: 600px) {

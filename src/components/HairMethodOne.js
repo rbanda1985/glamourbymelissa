@@ -12,7 +12,7 @@ const HairMethodOne = ({image, info, title}) => {
         <h2>{title}</h2>
         <p>{info}</p>
         <div className='booking-button'>
-        <MDBBtn href='/extension-form' style={{backgroundColor: 'pink', color: 'black'}}>Get Started</MDBBtn>
+        <MDBBtn href='/extension-form' style={{backgroundColor: 'pink', color: 'black'}}>Book Now</MDBBtn>
         </div>
       </div>
     </div>

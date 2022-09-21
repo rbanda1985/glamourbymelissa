@@ -26,8 +26,8 @@ const CardService = ({ image, title, description, link, linkTwo, classNames }) =
                 {title}
               </MDBCardTitle>
               <MDBCardText className="description">{description}</MDBCardText>
-              <MDBBtn href={link} style={{backgroundColor: 'pink', color: 'black'}}>Get Started</MDBBtn>
-              <MDBBtn className={classNames} href={linkTwo} style={{backgroundColor: 'pink', color: 'black'}}>Extension Methods</MDBBtn>
+              <MDBBtn href={link} style={{backgroundColor: 'pink', color: 'black', fontFamily: "Audrey Bold"}}>Book Now</MDBBtn>
+              <MDBBtn className={classNames} href={linkTwo} style={{backgroundColor: 'pink', color: 'black', fontFamily: "Audrey Bold"}}>Extension Methods</MDBBtn>
             </MDBCardBody>
           </MDBCol>
         </MDBRow>

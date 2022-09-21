@@ -1,6 +1,6 @@
 .cards-text {
   font-size: 1.5em;
-  font-family: "Allura", cursive;
+  font-family: "Audrey", sans-serif;
 }
 
 .card {
@@ -9,7 +9,7 @@
 
 .home-card-title {
   font-family: "Allura", cursive;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 2.5em;
 }
 
